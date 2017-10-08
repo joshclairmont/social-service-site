@@ -1,0 +1,16 @@
+.main-search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-text-element{
+    flex: 0 1 auto;
+    padding-right: 10px;
+    
+}  
+
+.service-type-filter-element{
+    flex: 0 1 auto;
+    padding-left: 10px;
+}

@@ -1,0 +1,13 @@
+<form>
+
+  <div class="main-search-container">
+    <mat-form-field>
+      <input matInput class="search-text-element" placeholder="Search">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select class="service-type-filter-element" placeholder="Service Type" [(ngModel)]="selectedServiceType" name="serviceType">
+        <mat-option *ngFor="let serviceType of availableServiceTypes" [value]="serviceType.value">{{serviceType.view}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</form>
